@@ -16,6 +16,7 @@ export default class SearchBar extends Component {
 
 	render() {
 		return (
+			// Browser thinks enter means submit form for form elements
 			<form className="input-group">
 				<input 
 					placeholder="Search for your favorite city"
