@@ -20,3 +20,20 @@ body {
 main {
 	flex: 1 0 auto;
 }
+
+a.page-title {
+	line-height: 122px;
+	font-size: 48px;
+	font-weight: thin;
+	hover: false;
+}
+
+nav.top-nav {
+	height: 122px;
+	box-shadow: none;
+}
+
+.nav-wrapper {
+	text-align: center;
+	height: 122px;
+}
