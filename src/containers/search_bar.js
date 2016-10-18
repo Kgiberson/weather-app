@@ -28,7 +28,7 @@ class SearchBar extends Component {
 	render() {
 		return (
 			// Browser thinks enter means submit form for form elements
-			<form onSubmit={this.onFormSubmit} className="input-group">
+			<form onSubmit={this.onFormSubmit} className="input-group center">
 				<input 
 					placeholder="Search for your favorite city"
 					className="form-control"
@@ -36,7 +36,7 @@ class SearchBar extends Component {
 					onChange={this.onInputChange}
 				/>
 				<span className="input-group-btn">
-					<button type="submit" className="btn btn-secondary">Search</button>
+					<button type="submit" className="btn waves-effect waves-light yellow darken-2">Search</button>
 				</span>
 			</form>
 		);
